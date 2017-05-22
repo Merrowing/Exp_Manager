@@ -74,7 +74,9 @@ public class Main {
         		total = total+ex_money;
         		}		
         		
-        	}System.out.println(total);
+        	}
+        	String ftotal = String.format("%.2f", total);
+        	System.out.println(ftotal + " " + mas[1]);
         	
         }
         //else System.out.println("Input ERROR");
