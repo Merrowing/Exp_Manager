@@ -25,14 +25,14 @@ public class ExpenseEntry {
     
     public void print(){
     	System.out.println(date);
+    	System.out.print(name+ " ");
     	System.out.print(amount+ " " );
-    	System.out.print(moneyType+ " ");
-    	System.out.println(name);
+    	System.out.println(moneyType);
     }
     public void print2(){
+    	System.out.print(name+ " ");
     	System.out.print(amount+ " " );
-    	System.out.print(moneyType+ " ");
-    	System.out.println(name);
+    	System.out.println(moneyType);
     }
     
 
