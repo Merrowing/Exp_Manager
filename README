@@ -1,4 +1,5 @@
 Compiling - javac -classpath bin\main;lib\gson-2.8.0.jar -d bin -sourcepath src src\main\Main.java
+Run - java -classpath src\main\Main
 gson.jar LIB IN \lib
 Running: java -jar Exp_Manager
 For stopping program type "exit".
